@@ -1,0 +1,10 @@
+{:deps 
+  {}
+  :aliases
+  {:build
+  {:extra-paths ["build"]
+   :extra-deps
+   {badigeon/badigeon
+    {:git/url "https://github.com/EwenG/badigeon.git"
+     :sha "1edf7ae465db870ec0066f28226edb9b04873b70"
+     :tag "0.0.11"}}}}}
